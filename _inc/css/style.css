@@ -1,0 +1,40 @@
+* {margin:0;padding:0;}
+body { margin:0;padding:0; background: #111;}
+html, body { height:100%; }
+.clear { clear:both }
+.row { width: 100%; max-width: 1140px; margin: 0 auto; overflow: hidden; }
+.container { padding-left: 20px; padding-right: 20px; }
+#buttons {font-size: 1.5em; text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25), -2px 0 1px rgba(0, 0, 0, 0.25); border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); display: inline-block; color: white; padding: 5px 10px 5px; white-space: nowrap; text-decoration: none; cursor: pointer; background: #961F19; border-style: none; text-align: center; overflow: visible; text-align: center; }
+/* =Grid
+-------------------------------------------------------- */
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol { margin:5px 1.05%; float: left; }
+.onecol { width: 4.85%; }
+.twocol { width: 13.5%; }
+.threecol { width: 22.15%; }
+.fourcol { width: 30.8%; }
+.fivecol { width: 39.45%; }
+.sixcol { width: 48.1%; }
+.sevencol { width: 56.75%; }
+.eightcol { width: 65.4%; }
+.ninecol { width: 74.05%; }
+.tencol { width: 82.7%; }
+.elevencol { width: 91.35%; }
+.twelvecol { width: 100%; float: left; }
+.last { margin-right: 0px; }
+img, object, embed { max-width: 100%; }
+
+/* =Typography
+-------------------------------------------------------- */
+body { font: .8em "Helvetica Neue", Helvetica, Arial, clean, sans-serif !important; line-height:1.2em; color: #fff;  }
+a {color:#FC0F0F; text-decoration: none}
+h1 { margin: 0 0 .7em 0; font-family: 'Lobster', serif; font-style: normal; font-weight: 400; color: #15B953; font-size: 3em; }
+.small { font-size: 1em;  }
+.large {font-size: 1.5em; line-height: 1.4em}
+p{line-height: 1.5em; }
+#fact, #source{margin: 15px auto;}
+#next{margin: 40px auto}
+#factoids{min-height: 400px;}
+.right {float: right;}
+.top{height: 150px; border-top: 7px solid #FC0F0F;}
+a.gray{color: #333; font-style: italic;}
+.twitter-share-button{margin-top: 5px}
